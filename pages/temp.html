@@ -12,7 +12,7 @@
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
@@ -22,7 +22,7 @@
     <title>Latitude vs Temperature</title>
   </head>
   <nav class="navbar navbar-expand-lg navbar-light bg-light" >
-    <div class="container-md" style="background-color:aquamarine;">
+    <div class="container-fluid" style="background-color:aquamarine;">
       <a class="navbar-brand" href="../index.html">Latitude</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -35,17 +35,19 @@
               Plots
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="temp.html">Temperature</a></li>
+              <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+              <li><a class="dropdown-item" href="windiness.html">Windiness</a></li>
+              <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="comparisons.html">Comparisons</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Data</a>
+            <a class="nav-link" href="data.html">Data</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Comparisons</a>
+            <a class="nav-link" href="comparisons.html">Comparisons</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
@@ -53,13 +55,13 @@
       </div>
     </div>
   </nav>
-  <body class="container-md">
+  <body class="container-fluid">
     <h1>It gets cold up north!</h1>
-    <img id="Ranulph" src="https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2017/11/ranners6a.jpg" alt="Ranulph">
-    <img class="visualizations" src="../visualizations/assets/images/Temperature.png" alt="Latitude vs Temperature">
-    <p>My name is Ranulph Fiennes. I ran seven marathons on seven continents in seven days. The farther away from the equator you get, the colder it gets. I guess you cold say it gets cold down south. But I would never say that because I am an Englishman. Cheerio!</p>
+    <img class="img-fluid Ranulph" src="../visualizations\assets\images\ranners6a.jpg" alt="Ranulph">
+    <img class="img-fluid visualizations" src="../visualizations/assets/images/Temperature.png" alt="Latitude vs Temperature">
+    <p>My name is Ranulph Fiennes. I ran seven marathons on seven continents in seven days. The farther away from the equator you get, the colder it gets. I guess you cold say it gets cold down south. Also, you'll notice the decreased frequency of city data at extreme southern latitudes. There ain't as many cities down there! But I would never say that because I am an Englishman. Cheerio!</p>
   </body>
-  <footer class="container-md" style="background-color:aquamarine;"> 
+  <footer class="container-fluid" style="background-color:aquamarine;"> 
     <h5>Head Analyst - Ranulph Fiennes </h5>
   </footer>
 </html>
