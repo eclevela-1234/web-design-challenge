@@ -7,12 +7,24 @@ footer {
     text-align: center;
 }
 
+.visualizations {
+    width: 600px;
+}
+.other {
+    width: 600px;
+    height: 375px;
+    margin-left: 10px;
+}
 .tabbutt {
     border: 5px solid aquamarine;
 
     padding: 10px;
     width: 405px;
     height: 300px;
+}
+
+.Rafa {
+    width: 600px;
 }
 
 /* Here we define some styles that will ONLY be applied at screen sizes below 600 pixels */
@@ -22,5 +34,13 @@ footer {
     }
     .Ranulph {
         width: 450px;
+    }
+    .Rafa {
+        width: 450px;
+    }
+    .other {
+        width: 405px;
+        height: 275px;
+        margin-left: 10px;
     }
 }
